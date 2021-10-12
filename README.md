@@ -1,6 +1,6 @@
 # gcn
 
-1. Настройка окружения
+Настройка окружения
 
 ```
 conda create -n gcn python=3.8 networkx scikit-learn pandas nb_conda
@@ -23,5 +23,10 @@ pip install torch-geometric-temporal
 conda install -c dglteam dgl-cuda10.2
 python -m dgl.backend.set_default_backend pytorch
 python -c "import dgl; print(dgl.__version__)"
-```
 
+
+// PyKEEN
+
+pip install pykeen
+
+```

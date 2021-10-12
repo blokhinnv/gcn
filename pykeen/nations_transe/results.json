@@ -1,0 +1,286 @@
+{
+  "losses": [
+    0.006096618708653666,
+    0.005991210814696461,
+    0.0061991571930784676,
+    0.0058594301118323555,
+    0.005823502888032539
+  ],
+  "metrics": {
+    "adjusted_arithmetic_mean_rank": {
+      "both": {
+        "realistic": 1.0161111111111112
+      },
+      "head": {
+        "realistic": 1.0188463735008566
+      },
+      "tail": {
+        "realistic": 1.0135208220659817
+      }
+    },
+    "adjusted_arithmetic_mean_rank_index": {
+      "both": {
+        "realistic": -0.0207439198855508
+      },
+      "head": {
+        "realistic": -0.024462564862861358
+      },
+      "tail": {
+        "realistic": -0.01727712508638568
+      }
+    },
+    "arithmetic_mean_rank": {
+      "both": {
+        "optimistic": 4.5497512437810945,
+        "pessimistic": 4.5497512437810945,
+        "realistic": 4.5497512437810945
+      },
+      "head": {
+        "optimistic": 4.437810945273632,
+        "pessimistic": 4.437810945273632,
+        "realistic": 4.437810945273632
+      },
+      "tail": {
+        "optimistic": 4.661691542288557,
+        "pessimistic": 4.661691542288557,
+        "realistic": 4.661691542288557
+      }
+    },
+    "geometric_mean_rank": {
+      "both": {
+        "optimistic": 3.849818754989113,
+        "pessimistic": 3.849818754989113,
+        "realistic": 3.849818754989113
+      },
+      "head": {
+        "optimistic": 3.7673682111690785,
+        "pessimistic": 3.7673682111690785,
+        "realistic": 3.7673682111690785
+      },
+      "tail": {
+        "optimistic": 3.934073765958407,
+        "pessimistic": 3.934073765958407,
+        "realistic": 3.934073765958407
+      }
+    },
+    "harmonic_mean_rank": {
+      "both": {
+        "optimistic": 3.324258963497884,
+        "pessimistic": 3.324258963497884,
+        "realistic": 3.324258963497884
+      },
+      "head": {
+        "optimistic": 3.260333001354054,
+        "pessimistic": 3.260333001354054,
+        "realistic": 3.260333001354054
+      },
+      "tail": {
+        "optimistic": 3.390741876984822,
+        "pessimistic": 3.390741876984822,
+        "realistic": 3.390741876984822
+      }
+    },
+    "hits_at_k": {
+      "both": {
+        "optimistic": {
+          "1": 0.0,
+          "3": 0.4925373134328358,
+          "5": 0.7014925373134329,
+          "10": 0.9477611940298507
+        },
+        "pessimistic": {
+          "1": 0.0,
+          "3": 0.4925373134328358,
+          "5": 0.7014925373134329,
+          "10": 0.9477611940298507
+        },
+        "realistic": {
+          "1": 0.0,
+          "3": 0.4925373134328358,
+          "5": 0.7014925373134329,
+          "10": 0.9477611940298507
+        }
+      },
+      "head": {
+        "optimistic": {
+          "1": 0.0,
+          "3": 0.48258706467661694,
+          "5": 0.7114427860696517,
+          "10": 0.9552238805970149
+        },
+        "pessimistic": {
+          "1": 0.0,
+          "3": 0.48258706467661694,
+          "5": 0.7114427860696517,
+          "10": 0.9552238805970149
+        },
+        "realistic": {
+          "1": 0.0,
+          "3": 0.48258706467661694,
+          "5": 0.7114427860696517,
+          "10": 0.9552238805970149
+        }
+      },
+      "tail": {
+        "optimistic": {
+          "1": 0.0,
+          "3": 0.5024875621890548,
+          "5": 0.6915422885572139,
+          "10": 0.9402985074626866
+        },
+        "pessimistic": {
+          "1": 0.0,
+          "3": 0.5024875621890548,
+          "5": 0.6915422885572139,
+          "10": 0.9402985074626866
+        },
+        "realistic": {
+          "1": 0.0,
+          "3": 0.5024875621890548,
+          "5": 0.6915422885572139,
+          "10": 0.9402985074626866
+        }
+      }
+    },
+    "inverse_arithmetic_mean_rank": {
+      "both": {
+        "optimistic": 0.2197922361946419,
+        "pessimistic": 0.2197922361946419,
+        "realistic": 0.2197922361946419
+      },
+      "head": {
+        "optimistic": 0.22533632286995517,
+        "pessimistic": 0.22533632286995517,
+        "realistic": 0.22533632286995517
+      },
+      "tail": {
+        "optimistic": 0.21451440768409819,
+        "pessimistic": 0.21451440768409819,
+        "realistic": 0.21451440768409819
+      }
+    },
+    "inverse_geometric_mean_rank": {
+      "both": {
+        "optimistic": 0.2597524880110435,
+        "pessimistic": 0.2597524880110435,
+        "realistic": 0.2597524880110435
+      },
+      "head": {
+        "optimistic": 0.26543728776903464,
+        "pessimistic": 0.26543728776903464,
+        "realistic": 0.26543728776903464
+      },
+      "tail": {
+        "optimistic": 0.2541894380967163,
+        "pessimistic": 0.2541894380967163,
+        "realistic": 0.2541894380967163
+      }
+    },
+    "inverse_harmonic_mean_rank": {
+      "both": {
+        "optimistic": 0.30081892264728083,
+        "pessimistic": 0.30081892264728083,
+        "realistic": 0.30081892264728083
+      },
+      "head": {
+        "optimistic": 0.3067171358216135,
+        "pessimistic": 0.3067171358216135,
+        "realistic": 0.3067171358216135
+      },
+      "tail": {
+        "optimistic": 0.2949207094729483,
+        "pessimistic": 0.2949207094729483,
+        "realistic": 0.2949207094729483
+      }
+    },
+    "inverse_median_rank": {
+      "both": {
+        "optimistic": 0.25,
+        "pessimistic": 0.25,
+        "realistic": 0.25
+      },
+      "head": {
+        "optimistic": 0.25,
+        "pessimistic": 0.25,
+        "realistic": 0.25
+      },
+      "tail": {
+        "optimistic": 0.3333333333333333,
+        "pessimistic": 0.3333333333333333,
+        "realistic": 0.3333333333333333
+      }
+    },
+    "median_rank": {
+      "both": {
+        "optimistic": 4.0,
+        "pessimistic": 4.0,
+        "realistic": 4.0
+      },
+      "head": {
+        "optimistic": 4.0,
+        "pessimistic": 4.0,
+        "realistic": 4.0
+      },
+      "tail": {
+        "optimistic": 3.0,
+        "pessimistic": 3.0,
+        "realistic": 3.0
+      }
+    },
+    "rank_mad": {
+      "both": {
+        "optimistic": 2.0,
+        "pessimistic": 2.0,
+        "realistic": 2.0
+      },
+      "head": {
+        "optimistic": 2.0,
+        "pessimistic": 2.0,
+        "realistic": 2.0
+      },
+      "tail": {
+        "optimistic": 1.0,
+        "pessimistic": 1.0,
+        "realistic": 1.0
+      }
+    },
+    "rank_std": {
+      "both": {
+        "optimistic": 2.765056014620859,
+        "pessimistic": 2.765056014620859,
+        "realistic": 2.765056014620859
+      },
+      "head": {
+        "optimistic": 2.670525165725971,
+        "pessimistic": 2.670525165725971,
+        "realistic": 2.670525165725971
+      },
+      "tail": {
+        "optimistic": 2.8520700563531705,
+        "pessimistic": 2.8520700563531705,
+        "realistic": 2.8520700563531705
+      }
+    },
+    "rank_var": {
+      "both": {
+        "optimistic": 7.645534763990989,
+        "pessimistic": 7.645534763990989,
+        "realistic": 7.645534763990989
+      },
+      "head": {
+        "optimistic": 7.131704660775725,
+        "pessimistic": 7.131704660775725,
+        "realistic": 7.131704660775725
+      },
+      "tail": {
+        "optimistic": 8.134303606346377,
+        "pessimistic": 8.134303606346377,
+        "realistic": 8.134303606346377
+      }
+    }
+  },
+  "times": {
+    "evaluation": 0.20800018310546875,
+    "training": 0.8104062080383301
+  }
+}
