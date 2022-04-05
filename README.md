@@ -3,29 +3,24 @@
 Настройка окружения
 
 ```
-conda create -n gcn python=3.8 networkx scikit-learn pandas nb_conda
+## PyTorch
+conda create -n gcn python networkx scikit-learn pandas -y
 conda activate gcn
-conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
-python -c "import torch; print(torch.__version__)"
-python -c "import torch; print(torch.version.cuda)"
+conda install ipykernel --update-deps --force-reinstall -y
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -y
+python -c "import torch; print(torch.__version__, torch.version.cuda, torch.cuda.is_available())"
 
-// torch-geometric
+## PyG
 
-pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
-pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
-pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
-pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.9.0+cu102.html
-pip install torch-geometric
+conda install pyg -c pyg -y
 pip install torch-geometric-temporal
 
-// DGL
+## DGL
 
-conda install -c dglteam dgl-cuda10.2
-python -m dgl.backend.set_default_backend pytorch
+conda install -c dglteam dgl-cuda11.3 -y
 python -c "import dgl; print(dgl.__version__)"
 
-
-// PyKEEN
+## PyKEEN
 
 pip install pykeen
 
