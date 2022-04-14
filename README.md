@@ -4,11 +4,12 @@
 
 ```
 ## PyTorch
-conda create -n gcn python networkx scikit-learn pandas -y
+conda create -n gcn python networkx scikit-learn pandas matplotlib -y
 conda activate gcn
 conda install ipykernel --update-deps --force-reinstall -y
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -y
 python -c "import torch; print(torch.__version__, torch.version.cuda, torch.cuda.is_available())"
+pip install --user scipy==1.8
 
 ## PyG
 
