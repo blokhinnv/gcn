@@ -10,6 +10,7 @@ conda install ipykernel --update-deps --force-reinstall -y
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -y
 python -c "import torch; print(torch.__version__, torch.version.cuda, torch.cuda.is_available())"
 pip install --user scipy==1.8
+pip install captum
 
 ## PyG
 
